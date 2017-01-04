@@ -2,6 +2,7 @@ package com.clay.longface.layout.bzil;
 
 import android.view.View;
 
+import com.clay.longface.layout.Dot;
 import com.clay.longface.layout.IStrategy;
 
 /**
@@ -19,11 +20,6 @@ public class BzilStrategy extends IStrategy {
      * 计算实体类
      */
     private Compute mCompute;
-
-    @Override
-    public void setSpec(int width, int height) {
-        super.setSpec(width, height);
-    }
 
     @Override
     public int[] measureLayout(View view, int index) {

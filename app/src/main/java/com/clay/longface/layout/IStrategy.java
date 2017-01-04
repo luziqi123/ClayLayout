@@ -5,7 +5,11 @@ import android.view.View;
 import java.io.File;
 
 /**
- * 负责计算view的位置坐标
+ * 计算view的位置坐标的父类
+ * 仅需要重写measureLayout就可以了
+ * ClayLayout持有一个IStrategy的实例
+ * 会在适当的时候将计算信息设置给IStrategy
+ *
  * Created by Administrator on 2016/12/6.
  */
 public abstract class IStrategy {

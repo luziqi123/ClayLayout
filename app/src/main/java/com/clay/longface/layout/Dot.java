@@ -1,4 +1,4 @@
-package com.clay.longface.layout.bzil;
+package com.clay.longface.layout;
 
 /**
  * Created by Administrator on 2016/12/14.

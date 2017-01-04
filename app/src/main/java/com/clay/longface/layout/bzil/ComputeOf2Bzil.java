@@ -1,5 +1,7 @@
 package com.clay.longface.layout.bzil;
 
+import com.clay.longface.layout.Dot;
+
 /**
  * Created by Administrator on 2016/12/14.
  */
