@@ -1,4 +1,4 @@
-package com.clay.longface.layout.dot;
+package com.clay.longface.layout.bzil;
 
 import android.view.View;
 
